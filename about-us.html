@@ -1,150 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="icon" type="image/png" sizes="32x32" href="snowball furby.jpg">
-  <link rel="stylesheet" href="style.css"> 
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
-  <title>Linh Hernandez's first HTML website</title>
-</head>
-  
- 
-<body>
-  <div class="header">
-  <h1>Linh Hernandez</h1>
-</div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="This is my About us" />
+    <meta
+      name="keywords"
+      content="resume, projects, amazon front-end dev, amazon SDE, journey, travel, cooking"
+    />
+    <link rel="icon" type="image/png" sizes="32x32" href="snowball furby.jpg" />
+    <link rel="stylesheet"type="text/css" href="css/main.css">
 
-<div class="topnav">
-  <div class="links">
-    <a href="#" class="active">About</a>
-    <a href="#">Resume</a>
-    <a href="#">Random</a>
-    <a href="#">?</a>
-    <a href="#" class="active" style="float:right">Contact me</a>  
-    
-    
-   </div>
-</div>
+    <title>About us</title>
+  </head>
 
+  <body>
+    <div class="nav-menu">
 
-<div class="row">
-  <div class="sidebar">
-    <div class="card">
-      <h2>About Me</h2>
-      <a href="#"><img src="https://drive.google.com/uc?id=1DCw-JNK3USlobWkfUFKkpMQVPHhnypar" alt="Just me"></a>  
-      <p>Write something about myself</p>
-    </div>
-    <div class="card">
-      <h3>Where I want to travel in the next years</h3>
-       <a class="img-wtravel" href="https://images.unsplash.com"><img src="https://images.unsplash.com/photo-1490806843957-31f4c9a91c65?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2370&q=80" alt="Japan"></a>
-     <a class="img-wtravel" href="https://images.unsplash.com"><img src="https://images.unsplash.com/photo-1591289009723-aef0a1a8a211?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2370&q=80" alt="France"></a>
-      <a class="img-wtravel" href="https://images.unsplash.com"><img src="https://images.unsplash.com/photo-1508957999498-e7a5e89ba28a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2148&q=80" alt="Greece"></a>
-       <a class="img-wtravel" href="https://images.unsplash.com"><img src="https://images.unsplash.com/photo-1485186667901-c039c19ecac3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2372&q=80" alt="South Korea"></a>
-     </div> 
-
-<!--    <div class="card">
-      <div id="social-media">
-      <h3 class="info-type">Follow Me!</h3>
-      <div id="social-media-links">
-        <button id="linkedin" class="social-media-btn" title="Linkedin" tab-index="1">
-          <span class="fa fa-linkedin"></span>
-        </button>
-        <button id="github" class="social-media-btn" title="Github" tab-index="2">
-          <span class="fa fa-github"></span>
-        </button>       
-        <button id="instagram" class="social-media-btn" title="Instagram" tab-index="3">
-          <span class="fa fa-instagram"></span>
-        </button>
-        <button id="spotify" class="social-media-btn" title="Spotify" tab-index="4">
-          <span class="fa fa-spotify"></span>
-        </button>
-        <button id="pinterest" class="social-media-btn" title="Pinterest" tab-index="5">
-          <span class="fa fa-pinterest"></span>
-        </button>
-        </div> 
-      </div>
-    </div>    -->
-    
-    
-    <div class="card-container">
-  <div id="social-media">
-    <h3 class="info-type">Follow Me!</h3>
-    <div id="social-media-links">
-      <a href="https://www.linkedin.com/in/klinhoang" title="Linkedin" tab-index="1">
-        <button id="linkedin" class="social-media-btn">
-          <span class="fa fa-linkedin"></span>
-        </button>
-      </a>
-      <a href="https://github.com/klinhoang" title="Github" tab-index="2">
-        <button id="github" class="social-media-btn">
-          <span class="fa fa-github"></span>
-        </button>
-      </a>       
-      <a href="https://www.instagram.com/maiyadendron" title="Instagram" tab-index="3">
-        <button id="instagram" class="social-media-btn">
-          <span class="fa fa-instagram"></span>
-        </button>
-      </a>
-      <a href="https://open.spotify.com/user/12120425496?si=dbc8dd74005642ca" title="Spotify" tab-index="4">
-        <button id="spotify" class="social-media-btn">
-          <span class="fa fa-spotify"></span>
-        </button>
-      </a>
-      <a href="https://www.pinterest.com/klinhoang" title="Pinterest" tab-index="5">
-        <button id="pinterest" class="social-media-btn">
-          <span class="fa fa-pinterest"></span>
-        </button>
-      </a>
-    </div> 
-  </div>
-</div>
-
-      
-  <div class="card-container">
-        <h3>Buy me a macchiato or boba tea</h3
-       <div class="wrapper5">
-    <button class="button button1" onclick="window.open('https://www.buymeacoffee.com/klinhoang','_blank')">
-      <img src="https://media0.giphy.com/media/TDQOtnWgsBx99cNoyH/giphy.gif" alt="Buy me a coffee Icon">
-      <b>Buy me a coffee</b>
-    </button>
-  </div>
+      <a href="index.html"> Home</a>
+      <a href="resume.html"> Resume</a>
+      <a href="food.html"> Food</a>
+      <a class="active" href="about-us.html"> About Us</a>
+      <a href="contact-us.html"> Contact Us</a>
+      <a href="products/single-products.html"> Products</a>
+      <div class="nav-menu">
  </div>
- 
-<!--   <div class="card">
-        <h3>Follow Me</h3
-        <ul class="social1">
-          <li> 📷 <a href="https://www.instagram.com/maiyadendron/">Instagram</a></li>
-          <li>📌<a href="https://www.pinterest.com/klinhoang/">Pinterest</a></li>
-          <li>🎵<a href="https://open.spotify.com/user/12120425496?si=dbc8dd74005642ca">Spotify</a></li>
-          <li>💼<a href="https://www.linkedin.com/in/klinhoang/">LinkedIn</a></li>
-        </ul> 
-      </div>
-    </div>   -->
-      
-
-  <div class="main">
-	  <div class="card-container">
-      <h2>TITLE HEADING</h2>
-      <h5>Title description, month date,year </h5>
-      <a href="#"><img src="http://via.placeholder.com/500x250"></a>
-      <p>Some text.</p>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium, aliquam magni sequi voluptas culpa est molestias, eum veniam dolorem doloremque quia ad quam iure aliquid non consequuntur tempore nesciunt ipsam!</p>
-    </div>
-    <div class="card-container">
-      <h2>TITLE HEADING</h2>
-      <h5>Title description, month date,year</h5>
-      <a href="#"><img src="http://via.placeholder.com/500x250"></a>
-      <p>Some text.</p>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium, aliquam magni sequi voluptas culpa est molestias, eum veniam dolorem doloremque quia ad quam iure aliquid non consequuntur tempore nesciunt ipsam!</p>
-    </div>
-  </div>
-</div>
-
-<div class="footer">
-
-  <p>&copy; 2023 All rights reserved.</p>
-  
-</div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-</body> 
+    <h1>This is About us page</h1>
+    <div>Info will be add later</div>
+  </body>
+</html>
